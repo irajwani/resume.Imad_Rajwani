@@ -1,0 +1,176 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://imadrajwani.shinyapps.io/tickerpicker/}{\Large Imad Rajwani}} & Email : \href{mailto:irajwani@bates.edu}{irajwani@bates.edu}\\
+  \href{http://github.com/irajwani}{http://github.com/irajwani} & Mobile : +1-207-402-2778 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bates College}{Lewiston, ME}
+      {Bachelor of Arts in Mathematics and Economics, Concentration in Physics}{Aug 2014 -- May 2018}
+    \resumeItemListStart  
+        \resumeItem{}{\textbf{GPA: 3.70/4.00}, Dean’s List for Academic Excellence: Fall 2014 - Fall 2018
+        \resumeItem{}{\textbf{Judith Magyar Isaacson '65} award for high academic achievement in mathematics}
+        \resumeItem{}{Relevant Coursework: Computational Physics, Enumerative Combinatorics, Three courses in Analysis}
+        \resumeItem{}{Master of Science in Mathematics - Courant Institute of Mathematical Sciences, NYU - (Expected Fall 2018)}
+}
+    \resumeItemListEnd    
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Looking Glass Investments}{Brunswick, ME}
+      {Summer Intern}{April 2017 - July 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {Designed three complete experimental models, with heavy emphasis on cutting edge data mining, machine learning, and numerical algorithms to ascertain the likelihood of default for 1.8 million high interest rate loans}
+        \resumeItem{}
+          {Diagnosed and rectified multiple python scripts relevant to dataframe manipulation, API request calls, and classification algorithms to lessen the company's computational resource requirements}
+          \resumeItem{}{Developed a web application to scrape and analytically process loans posted on Prosper and Lending Club, and generate summary tables every 12 hours to group loans according to the firm's thresholds for probability of default}
+          \resumeItem{}{Constructed visualizations of the firm's financial activity through data-driven documents in JavaScript, and composed research guides on community banks and firms residing in our technological environment}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Coram Imaging and Computing Center}{Bates College}
+      {President of Bates Tech Club \& Academic Technology Assistant}{April 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{}{Arrange bi-weekly sessions for Bates students and faculty on computational programming techniques such as mobile application development, construction of VR models, and numerical recipes}
+        \resumeItem{}
+          {Webmaster for the oldest weekly college newspaper in the United States and iOS developer of the Bates Den Delivery and The Bates Student newspaper mobile applications (``Den Delivery" and ``thebatesstudent" respectively on iOS App Store)}
+        \resumeItem{}{Developer of ``BatesLife" iOS application for the Bates Athletic department}
+        \resumeItem{}
+          {Third place at Colby College Hackathon 2018}
+        \resumeItem{}
+          {Recipient of ``Best L.L.Bean hack" at Bowdoin College Hackathon 2017}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {EducateMaine}{Portland, ME}
+      {Analyst}{May 2016 - April 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {Performed data cleaning/collating and a wide range of statistical analyses (multivariate regression, hypothesis tests, econometric modeling and propensity score matching) for data sets with 15 million student records from 54 US colleges}
+        \resumeItem{}
+          {Researched literature and datasets on the degree to which standardized test scores translate to collegiate academic performance}
+        \resumeItem{}
+          {Collaborated with a team of veteran quantitative analysts, through bimonthly meetings, to evaluate the efficacy of contemporary research methodologies}
+        \resumeItem{}
+          {Wrote approximately 1200 lines of programmable instructions in R and Stata to efficiently transform financial, demographic, racial and categorical information}
+      \resumeItemListEnd
+
+    
+
+    \resumeSubheading
+      {Economics Department}{Bates College}
+      {TA - Econometrics and Intermediate Macroeconomics}{September 2016 - April 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {Selected by Professor Michael Murray and Professor Paul Shea as teaching assistant due to high academic proficiency}
+        \resumeItem{}
+          {Taught exam review sessions for 51 students and graded problem sets}
+      \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+    
+    % \textbf{Job Shadows} - Barings LLC, MFS Investment Management, NEPC Investment Consulting 
+%-----------PROJECTS/SKILLS AND INTERESTS-----------------
+\section{Skills \& Interests}
+  \resumeSubHeadingListStart
+    \resumeSubItem{}
+      {Advanced proficiency in React Native, ReactJS, Python 3.7, R, SQLite, Matlab, Swift 4, Stata, Cloud Platforms}
+    \resumeSubItem{}{Numerous accolades in parliamentary debate and Model UN as Tournament Director and Varsity member of Brooks Quimby Debate Council}
+    \resumeSubItem{}
+      {Fluent in English, Urdu, and Hindi; proficient in reading Arabic}
+    \resumeSubItem{}
+      {Passionate about swimming, skateboarding, and texts on philosophy}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
